@@ -2,5 +2,7 @@
 
 Kumpulan project dan catatan belajar IT & engineering.
 
-## Project
-- network-basic → Dokumentasi setup jaringan dasar
+## Portofolio
+- Network Basic
+- IT Support Field Log
+
