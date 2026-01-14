@@ -1,1 +1,4 @@
 Ini adalah project pertama saya 
+Ini adalah project pertama saya
+Belajar Git dan GitHub
+Target: jadi engineer lapangan
