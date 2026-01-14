@@ -1,12 +1,6 @@
-# Belajar GitHub
+# First Repository
 
-Halo! Ini adalah repository pertama saya.
+Kumpulan project dan catatan belajar IT & engineering.
 
-## Tentang saya
-- Mahasiswa Pendidikan Teknik Informatika UNY
-- Tertarik ke dunia IT & engineering
-- Sedang belajar Git dan GitHub
-
-## Tujuan repository
-- Belajar dasar GitHub
-- Menyimpan project latihan
+## Project
+- network-basic → Dokumentasi setup jaringan dasar
