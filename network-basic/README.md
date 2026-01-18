@@ -1,68 +1,66 @@
-\# Basic Network Setup
+Network Basic Notes
 
+Repository ini berisi catatan dasar mengenai jaringan komputer
+sebagai fondasi untuk IT Support dan Field Engineer.
 
+Catatan ini dibuat untuk membantu memahami konsep jaringan
+yang sering ditemui saat melakukan troubleshooting di lapangan.
 
-\## Deskripsi
+--------------------------------------------------
 
-Repository ini berisi dokumentasi setup jaringan dasar
+PENGERTIAN JARINGAN KOMPUTER
 
-sebagai latihan dan portofolio IT Support / Network Engineer.
+Jaringan komputer adalah kumpulan dua atau lebih perangkat
+yang saling terhubung untuk berbagi data, sumber daya,
+dan layanan.
 
+--------------------------------------------------
 
+IP ADDRESS
 
-\## Topologi Jaringan
+IP Address adalah alamat unik yang digunakan untuk
+mengidentifikasi perangkat dalam jaringan.
+Contoh IP Address IPv4: 192.168.1.1
 
-\- 1 Router
+--------------------------------------------------
 
-\- 1 Switch
+SUBNET MASK
 
-\- 2 Client (PC/Laptop)
+Subnet Mask digunakan untuk menentukan bagian network
+dan host dari sebuah IP Address.
+Contoh subnet mask yang umum digunakan: 255.255.255.0
 
+--------------------------------------------------
 
+GATEWAY
 
-\## IP Addressing
+Gateway berfungsi sebagai pintu keluar dari jaringan lokal
+menuju jaringan lain atau internet.
+Biasanya gateway adalah alamat IP router.
 
-| Perangkat | IP Address     |
+--------------------------------------------------
 
-|----------|----------------|
+DHCP DAN STATIC IP
 
-| Router   | 192.168.1.1    |
+DHCP adalah layanan yang memberikan IP Address secara otomatis
+kepada perangkat yang terhubung ke jaringan.
+Static IP adalah IP Address yang diatur secara manual.
 
-| PC 1     | 192.168.1.10   |
+--------------------------------------------------
 
-| PC 2     | 192.168.1.11   |
+TROUBLESHOOTING DASAR JARINGAN
 
+Langkah dasar troubleshooting jaringan:
+1. Cek kabel LAN atau koneksi WiFi
+2. Cek IP Address pada perangkat
+3. Lakukan ping ke gateway
+4. Lakukan ping ke internet
+5. Restart perangkat jaringan jika diperlukan
 
+--------------------------------------------------
 
-\## Langkah Konfigurasi
+CATATAN AKHIR
 
-1\. Hubungkan semua perangkat menggunakan kabel LAN
-
-2\. Atur IP Address secara manual
-
-3\. Pastikan semua perangkat satu subnet
-
-4\. Lakukan pengecekan koneksi menggunakan perintah `ping`
-
-
-
-\## Pengujian
-
-\- Ping dari PC ke Router
-
-\- Ping antar PC
-
-
-
-\## Troubleshooting
-
-\- Cek koneksi kabel
-
-\- Cek konfigurasi IP Address
-
-\- Pastikan tidak ada IP conflict
-
-\- Cek firewall jika ping gagal
-
-
-
+Pemahaman dasar jaringan sangat penting bagi IT Support
+karena sebagian besar permasalahan di lapangan
+berkaitan dengan koneksi jaringan.
